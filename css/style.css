@@ -392,6 +392,11 @@ a:focus {
           align-items: center;
 }
 
+
+.paragraph_testimonial{
+  color: #000000;
+}
+
 .department_section .box .img-box img {
   max-width: 55px;
   max-height: 55px;
