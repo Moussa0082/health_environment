@@ -64,7 +64,7 @@ body {
 /* Texte collapsible */
 .collapsible-text {
   display: -webkit-box;
-  -webkit-line-clamp: 2; /* limite à 3 lignes */
+  -webkit-line-clamp: 2; /* limite à 2 lignes */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
