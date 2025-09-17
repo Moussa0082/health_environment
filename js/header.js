@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav">
                 <li class="nav-item active"><a class="nav-link text-white" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="what-wo-do.html">What We Do</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact Us</a></li>
               </ul>

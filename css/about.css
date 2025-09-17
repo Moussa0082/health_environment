@@ -1,0 +1,79 @@
+.section-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #28a745;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #007bff;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  .info-card {
+    background: #fff;
+    border-radius: 12px;
+    /* padding: 25px; */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+    height: 100%; /* 👈 assure même hauteur */
+  }
+  
+  .info-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .info-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+    border-left: 5px solid #28a745;
+    padding-left: 10px;
+  }
+  
+  .info-card p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  .col-md-6 {
+    margin-bottom: 2%; /* ajuste selon ton besoin */
+  }
+  
+ /* our partenaire style  */
+ .partners_section {
+    background: #f9f9f9;
+    padding: 60px 0;
+  }
+
+  .partner-logo {
+    max-height: 80px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+
+  .partner-logo:hover {
+    filter: grayscale(0%);
+  }
+
+  /* Flèches stylées */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #333;
+    transition: color 0.3s ease;
+  }
+
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    color: #007bff;
+  }

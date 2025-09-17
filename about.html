@@ -24,11 +24,16 @@
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
+  <!-- swipper css style -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
+  <link href="css/about.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
@@ -61,10 +66,7 @@
               </h2>
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+              We are a group of healthcare providers and disaster management volunteers. GCI drew its experience from pain and human suffering through long journey in refugee’s camps and the love received from the nuns Missionaries of charity (Mother Teresa) and volunteers of goodwill. “The founder of GCI believes that: “this world holds bright days ahead of us that will be seen once we all agree to start building a peaceful world by sharing love and compassion”.
             </p>
             <a href="">
               Read More
@@ -76,6 +78,122 @@
   </section>
 
   <!-- end about section -->
+
+
+    <!-- about us section  -->
+    <section class="department_section layout_padding py-5">
+      <div class="container">
+        <div class="heading_container heading_center mb-5">
+          <h2 class="section-title">About GCI</h2>
+        </div>
+        
+        <!-- Bloc principal -->
+        <div class="row g-4 mb-5">
+          <!-- Mission & Values -->
+          <div class="col-md-6 d-flex">
+            <div class="info-card flex-fill p-4">
+              <h3 class="info-title mb-3">Mission & Values</h3>
+              <p>
+                Assist the victims of disasters (natural and armed conflicts) to become self-resilient. 
+                Rebuild and rehabilitate healthcare facilities and schools destroyed during catastrophes. 
+                Provide emergency preparedness training and organize conferences on conflict resolution, 
+                peace building, and public health.
+              </p>
+            </div>
+          </div>
+          
+          <!-- History -->
+          <div class="col-md-6 d-flex">
+            <div class="info-card flex-fill p-4">
+              <h3 class="info-title mb-3">History</h3>
+              <p>
+                Incorporated in 2008, GCI has become a bridge between developed and developing countries 
+                in terms of disaster response and recovery. Since 2009, GCI has shipped medical supplies 
+                and aid to D.R. Congo, Central African Republic, Haiti, Burundi, and Liberia.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Leadership -->
+          <div class="col-md-6 d-flex">
+            <div class="info-card flex-fill p-4">
+              <h3 class="info-title mb-3">Leadership</h3>
+              <p>
+                GCI values transparency and accountability. Employees, volunteers, and members follow a 
+                strict code of ethics. We respect human rights and treat all donors, partners, and 
+                beneficiaries with dignity.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Board of Directors -->
+          <div class="col-md-6 d-flex">
+            <div class="info-card flex-fill p-4">
+              <h3 class="info-title mb-3">Board of Directors & Key Employees</h3>
+              <p>
+                <strong>Aaron A. Tajiri:</strong> Chair Executive Officer<br>
+                <strong>Anita Amani:</strong> Logistics & Distribution Manager<br>
+                <strong>Alimasi Mutulwa:</strong> HR Coordinator<br>
+                <strong>Dr. Bona Lundimu:</strong> Country Medical Director<br>
+                <strong>Rev. Desmond Shema:</strong> CFO<br>
+                ... and many more dedicated leaders.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Financial Accountability -->
+        <div class="row g-4 ">
+          <div class="col-12">
+            <div class="info-card text-center p-4">
+              <h3 class="info-title ">Financial Accountability</h3>
+              <p>
+                Global Crisis Interventions (GCI) is efficient, transparent, and recognized by Charity Navigator 
+                and the Better Business Bureau. 95% of resources go directly to beneficiaries. For every $1 
+                donated, $40 in medical supplies are delivered to disaster victims.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- about us section  -->
+     
+
+    <!-- Partners Section -->
+    <section class="partners_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center mb-5">
+          <h2 class="section-title">Our Partners</h2>
+        </div>
+    
+        <!-- Swiper -->
+        <div class="swiper partners-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/samaritian-s-purse-removebg-preview.png" alt="Partner 1" class="partner-logo">
+            </div>
+            <div class="swiper-slide">
+              <img src="images/oem-removebg-preview.png" alt="Partner 2" class="partner-logo">
+            </div>
+            <div class="swiper-slide">
+              <img src="images/nyt_stuff_exchange-removebg-preview.png" alt="Partner 3" class="partner-logo">
+            </div>
+          </div>
+    
+          <!-- Flèches -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- our partenaire  section  -->
+  
+  
 
   <!-- footer section -->
    
@@ -92,13 +210,39 @@
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <!-- owl slider -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
+   </script>
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <script>
+    var swiper = new Swiper(".partners-slider", {
+  slidesPerView: 3, // 👈 Met à 3 si tu n'as que 3 images
+  spaceBetween: 30,
+  loop: true,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    0: { slidesPerView: 1 },      // petit écran
+    576: { slidesPerView: 2 },    // écran moyen
+    768: { slidesPerView: 2 },
+    1024: { slidesPerView: 3 },   // grand écran
+  }
+});
+
+   </script>
   <!-- custom js -->
   <script type="text/javascript" src="js/custom.js"></script>
   <script type="text/javascript" src="js/header.js"></script>
   <script type="text/javascript" src="js/footer.js"></script>
+  <!-- <script type="text/javascript" src="js/partenaireSlide.js"></script> -->
   <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"> -->
   </script>
   <!-- End Google Map -->
 
