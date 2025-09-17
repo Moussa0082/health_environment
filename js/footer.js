@@ -56,10 +56,24 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="col-md-6 col-lg-3 footer_col">
           <div class="footer_detail">
             <h4>
-              About
+              Donate
             </h4>
             <p>
-              Beatae provident nobis mollitia magnam voluptatum, unde dicta facilis minima veniam corporis laudantium alias tenetur eveniet illum reprehenderit fugit a delectus officiis blanditiis ea.
+              For Cash Donation { $, €,  £,  ¥… }, deposit to Chase Bank: 
+Global Crisis Interventions
+                       Account Number: 119920111
+                       Routing #:  021000021
+For Credit or Debit Card: Please, click here: 
+                                                     Fill out this form
+Check Donation, Mail it to:
+                  Global Crisis Interventions
+                        2544 8th Avenue, Suite 4 B
+                        New York, NY 10030
+
+To donate a Truck, Car or Plane, please email us at gciinfo2009@gmail.com
+
+Your donation is tax deductible
+
             </p>
           </div>
         </div>
@@ -81,21 +95,12 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 footer_col ">
-          <h4>
-            Newsletter
-          </h4>
-          <form action="#">
-            <input type="email" placeholder="Enter email" />
-            <button type="submit">
-              Subscribe
-            </button>
-          </form>
-        </div>
+       
+
       </div>
       <div class="footer-info">
         <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By Moussa Bane
+          &copy; <span id="displayYear"></span> All Rights Reserved Powered By Moussa Bane
         </p>
        
       </div>  
@@ -106,3 +111,15 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('footer-placeholder').innerHTML = footerHTML;
   });
   
+
+//   <div class="col-md-6 col-lg-3 footer_col ">
+//   <h4>
+//     Newsletter
+//   </h4>
+//   <form action="#">
+//     <input type="email" placeholder="Enter email" />
+//     <button type="submit">
+//       Subscribe
+//     </button>
+//   </form>
+// </div>
